@@ -20,6 +20,8 @@ git clone https://github.com/PearNoDec/DouYinParse.git
 
 在使用之前，请确保在 `SendGetData` 函数中添加自己的Cookie值。
 
+![Image text](Cookies.png)
+
 ### 示例用法(PearAPI站点)
 
 这个库支持GET和POST协议进行请求，你可以传入短链接或者长链接。
@@ -37,6 +39,8 @@ https://api.pearktrue.cn/api/video/douyin/?url=https://v.douyin.com/iererwFh/
 - `title`：视频标题
 - `cover`：视频封面
 - `video`：无水印链接
+
+![Image text](DemoImage.png)
 
 ## 依赖
 
