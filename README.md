@@ -18,7 +18,7 @@ git clone https://github.com/PearNoDec/DouYinParse.git
 
 ### 注意事项
 
-在使用之前，请确保在 `SendGetData` 函数中添加自己的Cookie值。
+本项目自带Cookie值，如使用失效，请确保在 `SendGetData` 函数中添加自己的Cookie值。
 
 ![Image text](Cookies.png)
 
