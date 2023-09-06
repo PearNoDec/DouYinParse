@@ -30,7 +30,14 @@ git clone https://github.com/PearNoDec/DouYinParse.git
 https://api.pearktrue.cn/api/video/douyin/?url=https://v.douyin.com/iererwFh/
 ```
 
-输出的 `$data` 数组将包括以下信息：
+[PearAPI](https://api.pearktrue.cn/)还支持聚合万能短视频解析平台(皮皮虾,抖音,快手,哔哩哔哩,虎牙视频,懂车帝,火山,皮皮虾,皮皮搞笑,最左,小影,趣头条,微博,迅雷,美图秀秀,秒拍,美拍,京东,淘宝,天猫,拼多多....)
+还支持海外平台一键解析...
+
+```html
+https://api.pearktrue.cn/api/video/api.php?url=https://v.douyin.com/iererwFh/
+```
+
+输出的 `data` 数组将包括以下信息：
 
 - `author`：作者
 - `uid`：抖音ID
